@@ -54,6 +54,7 @@ video {
 
 .nav-links {
   display: flex;
+  gap: 1vw;
   align-items: center;
 }
 
