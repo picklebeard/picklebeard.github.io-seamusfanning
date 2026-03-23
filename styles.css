@@ -9,7 +9,6 @@ html, body {
   height: 100%;
   overflow: hidden;
   background: black;
-  font-size: 25px;
 }
 
 .video-container {
@@ -50,7 +49,7 @@ video {
   color: white;
   text-decoration: none;
   z-index: 11;
-  font-size: 25px;
+  font-size: clamp(25px, 3vw, 50px);
 }
 
 .nav-links {
@@ -60,7 +59,7 @@ video {
 }
 
 .button-link {
-  padding: 25px 35px;
+  padding: 1vw  2vw;
   border: 1px solid white;
-  border-radius: 999px;
+  border-radius: 100px;
 }
